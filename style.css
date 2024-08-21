@@ -1,0 +1,45 @@
+/*estilo do cabeçalho*/
+header {
+    text-align: center; 
+    padding: 20px;
+ }
+ /*estilo do menu de navegação*/
+ nav {
+    text-align: center;
+    word-spacing: 30px;
+    Padding: 10px;
+    background-color: #dedcf5
+    font-family Helvetica;
+ }
+/*estilo do botão da barra de navegação*/
+nav a {
+   color: #000000;
+   text-decoration: none;
+   font-size: larger;
+}
+ /*criando o layout de duas colunas*/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+ }
+ .profile {
+    flex: 70%;
+    padding: 20px;
+ }
+ /*imagem de perfil e estilo de cabeçalho*/
+ .profile img {
+    largura: 120px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+ }
+ .profile h1 {
+    text-align: center;
+ }
